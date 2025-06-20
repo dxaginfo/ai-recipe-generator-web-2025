@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #2E7D32;
+  --secondary-color: #FFA000;
+  --background-color: #FAFAFA;
+  --text-color: #333333;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.recipe-card {
+  transition: transform 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+}
